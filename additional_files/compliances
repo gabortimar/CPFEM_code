@@ -1,0 +1,26 @@
+HCP compliance tensor elements:
+-------------------------------
+order: s11, s11, s33, s13, s13, s12, s44, s44, s66
+--------------------------------------------------
+
+Zirconium:
+
+10.2e-6 10.2e-6 8.01e-6 -2.46e-6 -2.46e-6 -4.09e-6 29.94e-6 29.94e-6 28.58e-6 
+
+
+
+Titanium:
+
+9.62e-6 9.62e-6 6.84e-6 -1.81e-6 -1.81e-6 -4.67e-6 21.5e-6 21.5e-6 28.58e-6
+
+
+
+Magnesium:
+
+22.0e-6 22.0e-6 19.7e-6 -4.96e-6 -4.96e-6 -7.75e-6 60.98e-6 60.98e-6 59.5e-6
+
+------------------------------------------------------------------------------------
+All these values are in units of (1/MPa) and are taken from page 466 of:
+Desmond Tromans - ELASTIC ANISOTROPY OF HCP METAL CRYSTALS AND POLYCRYSTALS (2011) - IJRRAS
+
+

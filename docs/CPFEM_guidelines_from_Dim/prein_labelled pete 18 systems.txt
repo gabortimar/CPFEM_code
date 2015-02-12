@@ -1,0 +1,44 @@
+15	----divisions x
+15	----divisions y
+15	----divisions z
+1	----length of element in x
+1	----length of element in y
+1	----length of element in z
+2	----element shape
+3	----boundary behaviour, 3 indicates just x faces constrained 
+18	----number of slip systems 
+4	----option for orientation set input. 4 means input a texture (.ori) file.
+1	---- no. of orientations sets
+1	---- fraction of orientations to be used
+			---- necessary space
+zry4_ann_3375		---- name of .ori file without extension.
+			----space
+1			---- number of property sets, i.e., the number of orientation files you are inputting
+			---- space
+ZrRD2			---- name of material .fmt file excluding extension
+n			---- n for no to making initial slip resistances equal
+55.000			---- list of 18 initial slip resistances for each of the systems defined in .fmt file
+55.000
+55.000
+55.000
+55.000
+55.000
+330.000
+330.000
+330.000
+330.000
+330.000
+330.000
+330.000
+330.000
+330.000
+330.000
+330.000
+330.000
+n			---- n: no to setting a fraction to elastic only.
+-0.001			---- size and direction of strain increment, negative indicates compression
+500.000			---- denotes the total number of increments, and therefore the total strain
+n			---- set tied node conditions, no.
+n			---- 
+n				----
+R300_ratio_16_higher_res	---- name of file called to determine which increments to write output files for
