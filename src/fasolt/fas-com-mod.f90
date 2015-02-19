@@ -11,7 +11,7 @@ MODULE FAS_COM
 	IMPLICIT NONE
 
 	INTEGER, PARAMETER:: maxnod= 65000, maxdof= 180000,  maxels= 8100 
-	INTEGER, PARAMETER:: maxgps= 65000, maxinc= 2000,   maxsvs= 63
+	INTEGER, PARAMETER:: maxgps= 65000, maxinc= 10000,   maxsvs= 63
 	INTEGER, PARAMETER:: maxofd= 1000
 
 	INTEGER(4)	nlmnt, nnod, ngps, ninc, ninc0, ninc1, nsv, inc, nxs, nfs, maxit, tflag
